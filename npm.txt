@@ -1,0 +1,13 @@
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/material @mui/styled-engine-sc styled-components
+npm i formik formik-mui @mui/material @emotion/react @emotion/styled
+npm i react-router-dom
+npm install formik --save
+npm install react react-dom @material-ui/core formik
+npm install react react-dom @material-ui/core formik
+
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+ npm install --save three
+ npm install --save-dev vite
+npm i three @react-three/fiber @react-three/drei 
+npm install three react-three-fiber

@@ -1,0 +1,25 @@
+@import "./varable.scss";
+
+@function weight($weight-name){
+    @return map-get($font-weights, $weight-name)
+}
+
+body{
+    background-color: $primary-color;
+    color: $text-color;
+ 
+}
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+    #{&}__mainpar{
+        font-weight:weight(bold) ; 
+    
+        &:hover{
+            color: $secondary-color;
+        }
+
+    }
+
+}
